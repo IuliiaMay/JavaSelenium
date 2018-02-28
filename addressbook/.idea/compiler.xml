@@ -6,15 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="githab" />
         <module name="mytestmavenproject" />
+        <module name="rest" />
+        <module name="soap" />
         <module name="soap-sample" />
         <module name="TAhaul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="addressbook" target="1.8" />
+      <module name="githab" target="1.5" />
       <module name="mantisbt" target="1.8" />
       <module name="mytestmavenproject" target="1.5" />
+      <module name="rest" target="1.5" />
+      <module name="soap" target="1.5" />
       <module name="soap-sample" target="1.8" />
       <module name="TAhaul" target="1.5" />
     </bytecodeTargetLevel>
