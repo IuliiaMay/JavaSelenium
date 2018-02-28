@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite1]">
+  <test thread-count="5" verbose="0" name="Contacts(failed)">
+    <classes>
+      <class name="ru.maistrenko.addressbook.test.ContactModificationTests">
+        <methods>
+          <include name="ensurePrecondition"/>
+          <include name="setUp"/>
+          <include name="testContactModification"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- ru.maistrenko.addressbook.test.ContactModificationTests -->
+      <class name="ru.maistrenko.addressbook.test.ContactDetailsTests">
+        <methods>
+          <include name="ensurePrecondition"/>
+          <include name="setUp"/>
+          <include name="testDetailsContactDetails"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- ru.maistrenko.addressbook.test.ContactDetailsTests -->
+    </classes>
+  </test> <!-- Contacts(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
