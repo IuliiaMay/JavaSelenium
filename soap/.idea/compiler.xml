@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="githab" />
+        <module name="maistrenko" />
+        <module name="rest" />
+        <module name="rest (1)" />
+        <module name="soap" />
+        <module name="soap (1)" />
+      </profile>
+      <profile name="Annotation profile for soapsample" enabled="true">
+        <sourceOutputDir name="../soapsample/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../soapsample/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="soapsample" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="addressbook" target="1.8" />
+      <module name="githab" target="1.5" />
+      <module name="maistrenko" target="1.5" />
+      <module name="mantisbt" target="1.8" />
+      <module name="rest" target="1.5" />
+      <module name="rest (1)" target="1.5" />
+      <module name="soap" target="1.5" />
+      <module name="soap (1)" target="1.5" />
+      <module name="soapsample" target="1.5" />
+      <module name="soapsample (1)" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

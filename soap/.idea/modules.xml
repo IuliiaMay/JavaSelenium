@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../BarancevModules/addressbook/addressbook.iml" filepath="$PROJECT_DIR$/../BarancevModules/addressbook/addressbook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../githab/githab.iml" filepath="$PROJECT_DIR$/../githab/githab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../BarancevModules/mantisbt/mantisbt.iml" filepath="$PROJECT_DIR$/../BarancevModules/mantisbt/mantisbt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../rest/rest.iml" filepath="$PROJECT_DIR$/../rest/rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/soap.iml" filepath="$PROJECT_DIR$/soap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../BarancevModules//soap.iml" filepath="$PROJECT_DIR$/../BarancevModules//soap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../BarancevModules/soap-sample/soapsample.iml" filepath="$PROJECT_DIR$/../BarancevModules/soap-sample/soapsample.iml" />
+    </modules>
+  </component>
+</project>
