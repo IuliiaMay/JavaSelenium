@@ -30,9 +30,10 @@
             </plugin>
         </plugins>
     </build>
-    <modules>
+  <!--  <modules>
         <module>../mantisbt</module>
     </modules>
+	-->
     <groupId>ru.maistrenko</groupId>
     <artifactId>mantisbt</artifactId>
     <version>1.0-SNAPSHOT</version>
