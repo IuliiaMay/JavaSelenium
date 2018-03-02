@@ -6,28 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="githab" />
-        <module name="githab (1)" />
-        <module name="githab-Gradle" />
-        <module name="mytestmavenproject" />
+        <module name="maistrenko" />
         <module name="soap" />
-        <module name="soap-sample" />
-        <module name="TAhaul" />
+      </profile>
+      <profile name="Annotation profile for soapsample" enabled="true">
+        <sourceOutputDir name="../soapsample/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../soapsample/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="soapsample" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="addressbook" target="1.8" />
-      <module name="githab" target="1.5" />
-      <module name="githab (1)" target="1.5" />
-      <module name="githab-Gradle" target="1.5" />
+      <module name="maistrenko" target="1.5" />
       <module name="mantisbt" target="1.8" />
-      <module name="mytestmavenproject" target="1.5" />
-      <module name="rest" target="1.5" />
-      <module name="rest_main" target="1.5" />
-      <module name="rest_test" target="1.5" />
       <module name="soap" target="1.5" />
-      <module name="soap-sample" target="1.8" />
-      <module name="TAhaul" target="1.5" />
+      <module name="soapsample" target="1.5" />
+      <module name="soapsample (1)" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

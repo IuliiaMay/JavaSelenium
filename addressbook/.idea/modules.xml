@@ -8,7 +8,9 @@
       <module fileurl="file://$PROJECT_DIR$/../githab/githab.iml" filepath="$PROJECT_DIR$/../githab/githab.iml" />
       <module fileurl="file://$PROJECT_DIR$/../githab-Gradle/githab-Gradle.iml" filepath="$PROJECT_DIR$/../githab-Gradle/githab-Gradle.iml" />
       <module fileurl="file://$PROJECT_DIR$/../mantisbt/mantisbt.iml" filepath="$PROJECT_DIR$/../mantisbt/mantisbt.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../rest/rest.iml" filepath="$PROJECT_DIR$/../rest/rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rest.iml" filepath="$PROJECT_DIR$/.idea/modules/rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rest_main.iml" filepath="$PROJECT_DIR$/.idea/modules/rest_main.iml" group="rest" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rest_test.iml" filepath="$PROJECT_DIR$/.idea/modules/rest_test.iml" group="rest" />
       <module fileurl="file://$PROJECT_DIR$/../soap/soap.iml" filepath="$PROJECT_DIR$/../soap/soap.iml" />
     </modules>
   </component>
