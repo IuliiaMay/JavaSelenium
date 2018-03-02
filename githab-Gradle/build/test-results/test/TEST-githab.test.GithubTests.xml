@@ -1,35 +1,155 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="githab.test.GithubTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-03-02T16:04:29" hostname="LAPTOP-M7LJD1LD" time="11.114">
+<testsuite name="githab.test.GithubTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-03-02T17:33:31" hostname="LAPTOP-M7LJD1LD" time="11.787">
   <properties/>
-  <testcase name="testCommits" classname="githab.test.GithubTests" time="11.114"/>
-  <system-out><![CDATA[configuring gradle.build
+  <testcase name="testCommits" classname="githab.test.GithubTests" time="11.787"/>
+  <system-out><![CDATA[21:33:32.518 [Test worker] DEBUG com.jcabi.manifests.Manifests - 17 attribute(s) loaded ["Bnd-LastModified", "Build-Date", "Build-Time", "Built-By", "Bundle-Description", "Bundle-License", "Bundle-ManifestVersion", "Bundle-Name", "Bundle-SymbolicName", "Bundle-Version", "Created-By", "Export-Package", "Import-Package", "Manifest-Version", "Specification-Title", "Specification-Version", "Tool"]
+21:33:32.534 [Test worker] DEBUG com.jcabi.manifests.Manifests - 8 attribute(s) loaded ["Archiver-Version", "Build-Jdk", "Built-By", "Created-By", "JCabi-Build", "JCabi-Date", "JCabi-Version", "Manifest-Version"]
+21:33:32.550 [Test worker] DEBUG com.jcabi.manifests.Manifests - 20 attribute(s) loaded ["Archiver-Version", "Bnd-LastModified", "Build-Jdk", "Built-By", "Bundle-Description", "Bundle-DocURL", "Bundle-License", "Bundle-ManifestVersion", "Bundle-Name", "Bundle-RequiredExecutionEnvironment", "Bundle-SymbolicName", "Bundle-Vendor", "Bundle-Version", "Created-By", "Export-Package", "Import-Package", "Manifest-Version", "Originally-Created-By", "Require-Capability", "Tool"]
+21:33:32.550 [Test worker] DEBUG com.jcabi.manifests.Manifests - 15 attribute(s) loaded ["Archiver-Version", "Bnd-LastModified", "Build-Jdk", "Built-By", "Bundle-Description", "Bundle-License", "Bundle-ManifestVersion", "Bundle-Name", "Bundle-SymbolicName", "Bundle-Version", "Created-By", "Export-Package", "Import-Package", "Manifest-Version", "Tool"]
+21:33:32.550 [Test worker] DEBUG com.jcabi.manifests.Manifests - 9 attribute(s) loaded ["Ant-Version", "Created-By", "Implementation-Vendor", "Implementation-Version", "Main-Class", "Manifest-Version", "Specification-Title", "Specification-Vendor", "Specification-Version"]
+21:33:32.550 [Test worker] DEBUG com.jcabi.manifests.Manifests - 8 attribute(s) loaded ["Archiver-Version", "Build-Jdk", "Built-By", "Created-By", "JCabi-Build", "JCabi-Date", "JCabi-Version", "Manifest-Version"]
+21:33:32.550 [Test worker] DEBUG com.jcabi.manifests.Manifests - 8 attribute(s) loaded ["Archiver-Version", "Build-Jdk", "Built-By", "Created-By", "JCabi-Build", "JCabi-Date", "JCabi-Version", "Manifest-Version"]
+21:33:32.550 [Test worker] DEBUG com.jcabi.manifests.Manifests - 8 attribute(s) loaded ["Archiver-Version", "Build-Jdk", "Built-By", "Created-By", "JCabi-Build", "JCabi-Date", "JCabi-Version", "Manifest-Version"]
+21:33:32.550 [Test worker] DEBUG com.jcabi.manifests.Manifests - 8 attribute(s) loaded ["Archiver-Version", "Build-Jdk", "Built-By", "Created-By", "JCabi-Build", "JCabi-Date", "JCabi-Version", "Manifest-Version"]
+21:33:32.550 [Test worker] DEBUG com.jcabi.manifests.Manifests - 8 attribute(s) loaded ["Archiver-Version", "Build-Jdk", "Built-By", "Created-By", "JCabi-Build", "JCabi-Date", "JCabi-Version", "Manifest-Version"]
+21:33:32.550 [Test worker] DEBUG com.jcabi.manifests.Manifests - 8 attribute(s) loaded ["Archiver-Version", "Build-Jdk", "Built-By", "Created-By", "JCabi-Build", "JCabi-Date", "JCabi-Version", "Manifest-Version"]
+21:33:32.550 [Test worker] DEBUG com.jcabi.manifests.Manifests - 5 attribute(s) loaded ["Archiver-Version", "Build-Jdk", "Built-By", "Created-By", "Manifest-Version"]
+21:33:32.550 [Test worker] DEBUG com.jcabi.manifests.Manifests - 27 attribute(s) loaded ["Archiver-Version", "Bnd-LastModified", "Build-Jdk", "Built-By", "Bundle-Description", "Bundle-DocURL", "Bundle-License", "Bundle-ManifestVersion", "Bundle-Name", "Bundle-SymbolicName", "Bundle-Vendor", "Bundle-Version", "Created-By", "Export-Package", "Implementation-Build", "Implementation-Title", "Implementation-Vendor", "Implementation-Vendor-Id", "Implementation-Version", "Include-Resource", "Manifest-Version", "Specification-Title", "Specification-Vendor", "Specification-Version", "Tool", "X-Compile-Source-JDK", "X-Compile-Target-JDK"]
+21:33:32.550 [Test worker] DEBUG com.jcabi.manifests.Manifests - 28 attribute(s) loaded ["Archiver-Version", "Bnd-LastModified", "Build-Jdk", "Built-By", "Bundle-Description", "Bundle-DocURL", "Bundle-License", "Bundle-ManifestVersion", "Bundle-Name", "Bundle-SymbolicName", "Bundle-Vendor", "Bundle-Version", "Created-By", "Export-Package", "Implementation-Build", "Implementation-Title", "Implementation-Vendor", "Implementation-Vendor-Id", "Implementation-Version", "Include-Resource", "Manifest-Version", "Require-Capability", "Specification-Title", "Specification-Vendor", "Specification-Version", "Tool", "X-Compile-Source-JDK", "X-Compile-Target-JDK"]
+21:33:32.565 [Test worker] DEBUG com.jcabi.manifests.Manifests - 8 attribute(s) loaded ["Ant-Version", "Built-By", "Built-Date", "Created-By", "Implementation-Title", "Implementation-Vendor", "Implementation-Version", "Manifest-Version"]
+21:33:32.565 [Test worker] DEBUG com.jcabi.manifests.Manifests - 8 attribute(s) loaded ["Ant-Version", "Built-By", "Built-Date", "Created-By", "Implementation-Title", "Implementation-Vendor", "Implementation-Version", "Manifest-Version"]
+21:33:32.565 [Test worker] DEBUG com.jcabi.manifests.Manifests - 15 attribute(s) loaded ["Bnd-LastModified", "Build-Jdk", "Built-By", "Bundle-Description", "Bundle-DocURL", "Bundle-License", "Bundle-ManifestVersion", "Bundle-Name", "Bundle-SymbolicName", "Bundle-Version", "Created-By", "Export-Package", "Import-Package", "Manifest-Version", "Tool"]
+21:33:32.565 [Test worker] DEBUG com.jcabi.manifests.Manifests - 1 attribute(s) loaded ["Manifest-Version"]
+21:33:32.565 [Test worker] DEBUG com.jcabi.manifests.Manifests - 19 attribute(s) loaded ["Bnd-LastModified", "Build-Jdk", "Built-By", "Bundle-Description", "Bundle-DocURL", "Bundle-License", "Bundle-ManifestVersion", "Bundle-Name", "Bundle-SymbolicName", "Bundle-Vendor", "Bundle-Version", "Created-By", "Export-Package", "Extension-Name", "Implementation-Version", "Import-Package", "Manifest-Version", "Specification-Version", "Tool"]
+21:33:32.565 [Test worker] DEBUG com.jcabi.manifests.Manifests - 21 attribute(s) loaded ["Bnd-LastModified", "Build-Id", "Build-Jdk", "Built-By", "Bundle-Description", "Bundle-DocURL", "Bundle-License", "Bundle-ManifestVersion", "Bundle-Name", "Bundle-SymbolicName", "Bundle-Vendor", "Bundle-Version", "Created-By", "Export-Package", "Implementation-Title", "Implementation-Vendor", "Implementation-Vendor-Id", "Implementation-Version", "Import-Package", "Manifest-Version", "Tool"]
+21:33:32.565 [Test worker] DEBUG com.jcabi.manifests.Manifests - 23 attribute(s) loaded ["Bnd-LastModified", "Build-Id", "Build-Jdk", "Built-By", "Bundle-Activator", "Bundle-Description", "Bundle-DocURL", "Bundle-License", "Bundle-ManifestVersion", "Bundle-Name", "Bundle-SymbolicName", "Bundle-Vendor", "Bundle-Version", "Created-By", "DynamicImport-Package", "Export-Package", "Implementation-Title", "Implementation-Vendor", "Implementation-Vendor-Id", "Implementation-Version", "Import-Package", "Manifest-Version", "Tool"]
+21:33:32.565 [Test worker] DEBUG com.jcabi.manifests.Manifests - 16 attribute(s) loaded ["Archiver-Version", "Build-Jdk", "Built-By", "Created-By", "Implementation-Build", "Implementation-Title", "Implementation-Vendor", "Implementation-Vendor-Id", "Implementation-Version", "Manifest-Version", "Specification-Title", "Specification-Vendor", "Specification-Version", "X-Compile-Source-JDK", "X-Compile-Target-JDK", "url"]
+21:33:32.565 [Test worker] DEBUG com.jcabi.manifests.Manifests - 17 attribute(s) loaded ["Archiver-Version", "Build-Jdk", "Built-By", "Created-By", "Implementation-Build", "Implementation-Title", "Implementation-URL", "Implementation-Vendor", "Implementation-Vendor-Id", "Implementation-Version", "Manifest-Version", "Specification-Title", "Specification-Vendor", "Specification-Version", "X-Compile-Source-JDK", "X-Compile-Target-JDK", "url"]
+21:33:32.565 [Test worker] DEBUG com.jcabi.manifests.Manifests - 20 attribute(s) loaded ["Archiver-Version", "Bnd-LastModified", "Build-Jdk", "Built-By", "Bundle-Description", "Bundle-DocURL", "Bundle-License", "Bundle-ManifestVersion", "Bundle-Name", "Bundle-RequiredExecutionEnvironment", "Bundle-SymbolicName", "Bundle-Vendor", "Bundle-Version", "Created-By", "Export-Package", "Import-Package", "Manifest-Version", "Originally-Created-By", "Require-Capability", "Tool"]
+21:33:32.565 [Test worker] DEBUG com.jcabi.manifests.Manifests - 18 attribute(s) loaded ["Archiver-Version", "Build-Jdk", "Built-By", "Bundle-Description", "Bundle-ManifestVersion", "Bundle-Name", "Bundle-RequiredExecutionEnvironment", "Bundle-SymbolicName", "Bundle-Vendor", "Bundle-Version", "Created-By", "Export-Package", "Implementation-Title", "Implementation-Version", "Import-Package", "Manifest-Version", "X-Compile-Source-JDK", "X-Compile-Target-JDK"]
+21:33:32.597 [Test worker] DEBUG com.jcabi.manifests.Manifests - 14 attribute(s) loaded ["Archiver-Version", "Bnd-LastModified", "Build-Jdk", "Built-By", "Bundle-Description", "Bundle-License", "Bundle-ManifestVersion", "Bundle-Name", "Bundle-SymbolicName", "Bundle-Version", "Created-By", "Export-Package", "Manifest-Version", "Tool"]
+21:33:32.597 [Test worker] DEBUG com.jcabi.manifests.Manifests - 9 attribute(s) loaded ["Archiver-Version", "Build-Jdk", "Built-By", "Created-By", "Implementation-Title", "Implementation-Vendor", "Implementation-Vendor-Id", "Implementation-Version", "Manifest-Version"]
+21:33:32.597 [Test worker] DEBUG com.jcabi.manifests.Manifests - 28 attribute(s) loaded ["Archiver-Version", "Bnd-LastModified", "Build-Jdk", "Built-By", "Bundle-Description", "Bundle-DocURL", "Bundle-License", "Bundle-ManifestVersion", "Bundle-Name", "Bundle-SymbolicName", "Bundle-Vendor", "Bundle-Version", "Created-By", "Export-Package", "Implementation-Build", "Implementation-Title", "Implementation-Vendor", "Implementation-Vendor-Id", "Implementation-Version", "Import-Package", "Include-Resource", "Manifest-Version", "Specification-Title", "Specification-Vendor", "Specification-Version", "Tool", "X-Compile-Source-JDK", "X-Compile-Target-JDK"]
+21:33:32.597 [Test worker] DEBUG com.jcabi.manifests.Manifests - 27 attribute(s) loaded ["Archiver-Version", "Bnd-LastModified", "Build-Jdk", "Built-By", "Bundle-Description", "Bundle-DocURL", "Bundle-License", "Bundle-ManifestVersion", "Bundle-Name", "Bundle-SymbolicName", "Bundle-Vendor", "Bundle-Version", "Created-By", "Export-Package", "Implementation-Build", "Implementation-Title", "Implementation-Vendor", "Implementation-Vendor-Id", "Implementation-Version", "Include-Resource", "Manifest-Version", "Specification-Title", "Specification-Vendor", "Specification-Version", "Tool", "X-Compile-Source-JDK", "X-Compile-Target-JDK"]
+21:33:32.612 [Test worker] INFO com.jcabi.manifests.Manifests - 45 attributes loaded from 29 stream(s) in 735ms, 45 saved, 376 ignored: ["Ant-Version", "Archiver-Version", "Bnd-LastModified", "Build-Date", "Build-Id", "Build-Jdk", "Build-Time", "Built-By", "Built-Date", "Bundle-Activator", "Bundle-Description", "Bundle-DocURL", "Bundle-License", "Bundle-ManifestVersion", "Bundle-Name", "Bundle-RequiredExecutionEnvironment", "Bundle-SymbolicName", "Bundle-Vendor", "Bundle-Version", "Created-By", "DynamicImport-Package", "Export-Package", "Extension-Name", "Implementation-Build", "Implementation-Title", "Implementation-URL", "Implementation-Vendor", "Implementation-Vendor-Id", "Implementation-Version", "Import-Package", "Include-Resource", "JCabi-Build", "JCabi-Date", "JCabi-Version", "Main-Class", "Manifest-Version", "Originally-Created-By", "Require-Capability", "Specification-Title", "Specification-Vendor", "Specification-Version", "Tool", "X-Compile-Source-JDK", "X-Compile-Target-JDK", "url"]
+21:33:32.784 [Test worker] DEBUG com.jcabi.aspects.aj.ImmutabilityChecker - #check(class com.jcabi.github.RtGithub): immutability checked
+21:33:32.831 [Test worker] INFO com.jcabi.aspects.aj.NamedThreads - jcabi-aspects 0.22.2/b3b3809 started new daemon thread jcabi-loggable for watching of @Loggable annotated methods
+21:33:32.940 [Test worker] DEBUG com.jcabi.aspects.aj.ImmutabilityChecker - #check(class com.jcabi.github.RtRepos): immutability checked
+21:33:32.940 [Test worker] DEBUG com.jcabi.github.RtGithub - #repos(): https://api.github.com/ in 72,77ms
+21:33:32.940 [Test worker] DEBUG com.jcabi.aspects.aj.ImmutabilityChecker - #check(class com.jcabi.github.Coordinates$Simple): immutability checked
+21:33:33.159 [Test worker] DEBUG com.jcabi.aspects.aj.ImmutabilityChecker - #check(class com.jcabi.github.RtRepo): immutability checked
+21:33:33.159 [Test worker] DEBUG com.jcabi.github.RtRepos - #get(IuliiaMay/JavaSelenium): IuliiaMay/JavaSelenium in 218,95ms
+21:33:33.190 [Test worker] DEBUG com.jcabi.aspects.aj.ImmutabilityChecker - #check(class com.jcabi.github.RtRepoCommits): immutability checked
+21:33:33.190 [Test worker] DEBUG com.jcabi.github.RtRepo - #coordinates(): IuliiaMay/JavaSelenium in 32,85µs
+21:33:33.190 [Test worker] DEBUG com.jcabi.github.RtRepo - #coordinates(): IuliiaMay/JavaSelenium in 27,73µs
+21:33:33.190 [Test worker] DEBUG com.jcabi.github.RtRepo - #commits(): https://api.github.com/repos/IuliiaMay/JavaSelenium/commits in 29,15ms
+21:33:33.315 [Test worker] DEBUG com.jcabi.aspects.aj.ImmutabilityChecker - #check(class com.jcabi.github.RtValuePagination): immutability checked
+21:33:33.315 [Test worker] DEBUG com.jcabi.aspects.aj.ImmutabilityChecker - #check(class com.jcabi.github.RtPagination): immutability checked
+21:33:33.331 [Test worker] DEBUG com.jcabi.github.RtRepoCommits - #iterate({}): com.jcabi.github.RtPagination@952ee74 in 22,13ms
+21:33:33.849 [jcabi-loggable] DEBUG com.jcabi.aspects.aj.MethodLogger$2 - Logging monitor thread interrupted
+21:33:36.161 [Test worker] INFO com.jcabi.http.request.BaseRequest - #fetch(GET api.github.com /repos/IuliiaMay/JavaSelenium/commits): [200 OK] in 3s
+21:33:36.234 [Test worker] DEBUG com.jcabi.aspects.aj.ImmutabilityChecker - #check(class com.jcabi.github.RtRepoCommit): immutability checked
+21:33:36.236 [Test worker] DEBUG com.jcabi.github.RtRepo - #coordinates(): IuliiaMay/JavaSelenium in 102,40µs
+21:33:36.240 [Test worker] DEBUG com.jcabi.github.RtRepoCommits - #get('1477c904d06857ef9ca2b37eb772de1f60720349'): https://api.github.com/repos/IuliiaMay/JavaSeleniu..0..mits/1477c904d06857ef9ca2b37eb772de1f60720349 in 25,27ms
+21:33:36.266 [Test worker] DEBUG com.jcabi.aspects.aj.ImmutabilityChecker - #check(class com.jcabi.github.RepoCommit$Smart): immutability checked
+21:33:36.284 [Test worker] DEBUG com.jcabi.aspects.aj.ImmutabilityChecker - #check(class com.jcabi.github.SmartJson): immutability checked
+21:33:36.284 [Test worker] DEBUG com.jcabi.aspects.aj.ImmutabilityChecker - #check(class com.jcabi.github.RtJson): immutability checked
+21:33:36.831 [Test worker] INFO com.jcabi.http.request.BaseRequest - #fetch(GET api.github.com /repos/IuliiaMay/JavaSelenium/commits/1477c904d06857ef9ca2b37eb772de1f60720349): [200 OK] in 532ms
+21:33:36.878 [Test worker] DEBUG com.jcabi.github.RtJson - #fetch(): '{"sha":"1477c904d06857ef9ca2b37eb772de1f60720349"..71910..RepoCommit.Smart(commit).message());"}]}' in 570,75ms
+21:33:36.878 [Test worker] DEBUG com.jcabi.github.RtRepoCommit - #json(): '{"sha":"1477c904d06857ef9ca2b37eb772de1f60720349"..71910..RepoCommit.Smart(commit).message());"}]}' in 589,19ms
+21:33:36.894 [Test worker] DEBUG com.jcabi.github.SmartJson - #json(): '{"sha":"1477c904d06857ef9ca2b37eb772de1f60720349"..71910..RepoCommit.Smart(commit).message());"}]}' in 595,97ms
+21:33:36.894 [Test worker] DEBUG com.jcabi.github.RepoCommit$Smart - #message(): 'updating token\n\nupdating token' in 601,34ms
+updating token
+
+updating token
+21:33:36.894 [Test worker] DEBUG com.jcabi.github.RtRepo - #coordinates(): IuliiaMay/JavaSelenium in 9,39µs
+21:33:36.894 [Test worker] DEBUG com.jcabi.github.RtRepoCommits - #get('102a743a1f174623c062b55eaccd6606e96260c0'): https://api.github.com/repos/IuliiaMay/JavaSeleniu..0..mits/102a743a1f174623c062b55eaccd6606e96260c0 in 1,60ms
+21:33:37.394 [Test worker] INFO com.jcabi.http.request.BaseRequest - #fetch(GET api.github.com /repos/IuliiaMay/JavaSelenium/commits/102a743a1f174623c062b55eaccd6606e96260c0): [200 OK] in 500ms
+21:33:37.394 [Test worker] DEBUG com.jcabi.github.RtJson - #fetch(): '{"sha":"102a743a1f174623c062b55eaccd6606e96260c0"..3863..3.1'\n }\n+test {\n+\tuseTestNG()\n+}"}]}' in 499,71ms
+21:33:37.394 [Test worker] DEBUG com.jcabi.github.RtRepoCommit - #json(): '{"sha":"102a743a1f174623c062b55eaccd6606e96260c0"..3863..3.1'\n }\n+test {\n+\tuseTestNG()\n+}"}]}' in 500,66ms
+21:33:37.394 [Test worker] DEBUG com.jcabi.github.SmartJson - #json(): '{"sha":"102a743a1f174623c062b55eaccd6606e96260c0"..3863..3.1'\n }\n+test {\n+\tuseTestNG()\n+}"}]}' in 501,60ms
+21:33:37.394 [Test worker] DEBUG com.jcabi.github.RepoCommit$Smart - #message(): 'configuring gradle.build\n\nadd "useTestNG()"' in 502,32ms
+configuring gradle.build
 
 add "useTestNG()"
+21:33:37.394 [Test worker] DEBUG com.jcabi.github.RtRepo - #coordinates(): IuliiaMay/JavaSelenium in 8,11µs
+21:33:37.394 [Test worker] DEBUG com.jcabi.github.RtRepoCommits - #get('f4438dd1b00c9b2cc864e2d14cd8a72fa4dca4dc'): https://api.github.com/repos/IuliiaMay/JavaSeleniu..0..mits/f4438dd1b00c9b2cc864e2d14cd8a72fa4dca4dc in 629,33µs
+21:33:38.113 [Test worker] INFO com.jcabi.http.request.BaseRequest - #fetch(GET api.github.com /repos/IuliiaMay/JavaSelenium/commits/f4438dd1b00c9b2cc864e2d14cd8a72fa4dca4dc): [200 OK] in 719ms
+21:33:38.144 [Test worker] DEBUG com.jcabi.github.RtJson - #fetch(): '{"sha":"f4438dd1b00c9b2cc864e2d14cd8a72fa4dca4dc"..262530..dd1b00c9b2cc864e2d14cd8a72fa4dca4dc"}]}' in 740,24ms
+21:33:38.144 [Test worker] DEBUG com.jcabi.github.RtRepoCommit - #json(): '{"sha":"f4438dd1b00c9b2cc864e2d14cd8a72fa4dca4dc"..262530..dd1b00c9b2cc864e2d14cd8a72fa4dca4dc"}]}' in 744,20ms
+21:33:38.159 [Test worker] DEBUG com.jcabi.github.SmartJson - #json(): '{"sha":"f4438dd1b00c9b2cc864e2d14cd8a72fa4dca4dc"..262530..dd1b00c9b2cc864e2d14cd8a72fa4dca4dc"}]}' in 749,92ms
+21:33:38.159 [Test worker] DEBUG com.jcabi.github.RepoCommit$Smart - #message(): 'Added GitHub-Gradle mobule\n\nAdded GitHub-Gradle mobule' in 759,29ms
 Added GitHub-Gradle mobule
 
 Added GitHub-Gradle mobule
+21:33:38.159 [Test worker] DEBUG com.jcabi.github.RtRepo - #coordinates(): IuliiaMay/JavaSelenium in 8,96µs
+21:33:38.159 [Test worker] DEBUG com.jcabi.github.RtRepoCommits - #get('007ac68826b75f3d9b495fc78a12b8f0f7db1eba'): https://api.github.com/repos/IuliiaMay/JavaSeleniu..0..mits/007ac68826b75f3d9b495fc78a12b8f0f7db1eba in 869,12µs
+21:33:38.675 [Test worker] INFO com.jcabi.http.request.BaseRequest - #fetch(GET api.github.com /repos/IuliiaMay/JavaSelenium/commits/007ac68826b75f3d9b495fc78a12b8f0f7db1eba): [200 OK] in 516ms
+21:33:38.675 [Test worker] DEBUG com.jcabi.github.RtJson - #fetch(): '{"sha":"007ac68826b75f3d9b495fc78a12b8f0f7db1eba"..5192..<dependencies>\n         <dependency>"}]}' in 514,82ms
+21:33:38.675 [Test worker] DEBUG com.jcabi.github.RtRepoCommit - #json(): '{"sha":"007ac68826b75f3d9b495fc78a12b8f0f7db1eba"..5192..<dependencies>\n         <dependency>"}]}' in 516,00ms
+21:33:38.675 [Test worker] DEBUG com.jcabi.github.SmartJson - #json(): '{"sha":"007ac68826b75f3d9b495fc78a12b8f0f7db1eba"..5192..<dependencies>\n         <dependency>"}]}' in 517,14ms
+21:33:38.675 [Test worker] DEBUG com.jcabi.github.RepoCommit$Smart - #message(): 'remove modules from projects pom\n\nremove modules from projects pom' in 518,07ms
 remove modules from projects pom
 
 remove modules from projects pom
+21:33:38.675 [Test worker] DEBUG com.jcabi.github.RtRepo - #coordinates(): IuliiaMay/JavaSelenium in 14,93µs
+21:33:38.675 [Test worker] DEBUG com.jcabi.github.RtRepoCommits - #get('6dbfd65cfa55203b8c0025f31a91ee11f983bf97'): https://api.github.com/repos/IuliiaMay/JavaSeleniu..0..mits/6dbfd65cfa55203b8c0025f31a91ee11f983bf97 in 1,27ms
+21:33:39.161 [Test worker] INFO com.jcabi.http.request.BaseRequest - #fetch(GET api.github.com /repos/IuliiaMay/JavaSelenium/commits/6dbfd65cfa55203b8c0025f31a91ee11f983bf97): [200 OK] in 486ms
+21:33:39.163 [Test worker] DEBUG com.jcabi.github.RtJson - #fetch(): '{"sha":"6dbfd65cfa55203b8c0025f31a91ee11f983bf97"..23677..     <version>1.0-SNAPSHOT</version>"}]}' in 473,92ms
+21:33:39.163 [Test worker] DEBUG com.jcabi.github.RtRepoCommit - #json(): '{"sha":"6dbfd65cfa55203b8c0025f31a91ee11f983bf97"..23677..     <version>1.0-SNAPSHOT</version>"}]}' in 474,59ms
+21:33:39.164 [Test worker] DEBUG com.jcabi.github.SmartJson - #json(): '{"sha":"6dbfd65cfa55203b8c0025f31a91ee11f983bf97"..23677..     <version>1.0-SNAPSHOT</version>"}]}' in 475,12ms
+21:33:39.165 [Test worker] DEBUG com.jcabi.github.RepoCommit$Smart - #message(): 'remove modules from Addressbook\n\nremove modules from Addressbook' in 475,96ms
 remove modules from Addressbook
 
 remove modules from Addressbook
+21:33:39.165 [Test worker] DEBUG com.jcabi.github.RtRepo - #coordinates(): IuliiaMay/JavaSelenium in 8,53µs
+21:33:39.166 [Test worker] DEBUG com.jcabi.github.RtRepoCommits - #get('eb2f89efad7025bca0a128bbd569285921b6e149'): https://api.github.com/repos/IuliiaMay/JavaSeleniu..0..mits/eb2f89efad7025bca0a128bbd569285921b6e149 in 904,53µs
+21:33:39.805 [Test worker] INFO com.jcabi.http.request.BaseRequest - #fetch(GET api.github.com /repos/IuliiaMay/JavaSelenium/commits/eb2f89efad7025bca0a128bbd569285921b6e149): [200 OK] in 638ms
+21:33:39.825 [Test worker] DEBUG com.jcabi.github.RtJson - #fetch(): '{"sha":"eb2f89efad7025bca0a128bbd569285921b6e149"..119160..ourceFolder\" forTests=\"false\" />"}]}' in 659,81ms
+21:33:39.843 [Test worker] DEBUG com.jcabi.github.RtRepoCommit - #json(): '{"sha":"eb2f89efad7025bca0a128bbd569285921b6e149"..119160..ourceFolder\" forTests=\"false\" />"}]}' in 667,61ms
+21:33:39.862 [Test worker] DEBUG com.jcabi.github.SmartJson - #json(): '{"sha":"eb2f89efad7025bca0a128bbd569285921b6e149"..119160..ourceFolder\" forTests=\"false\" />"}]}' in 677,83ms
+21:33:39.864 [Test worker] DEBUG com.jcabi.github.RepoCommit$Smart - #message(): 'Updated structure of projet\n\ndescription' in 697,87ms
 Updated structure of projet
 
 description
+21:33:39.865 [Test worker] DEBUG com.jcabi.github.RtRepo - #coordinates(): IuliiaMay/JavaSelenium in 9,39µs
+21:33:39.868 [Test worker] DEBUG com.jcabi.github.RtRepoCommits - #get('34c62aa7c457ad4d95f6079b4049d8948548a6b4'): https://api.github.com/repos/IuliiaMay/JavaSeleniu..0..mits/34c62aa7c457ad4d95f6079b4049d8948548a6b4 in 1,70ms
+21:33:41.035 [Test worker] INFO com.jcabi.http.request.BaseRequest - #fetch(GET api.github.com /repos/IuliiaMay/JavaSelenium/commits/34c62aa7c457ad4d95f6079b4049d8948548a6b4): [200 OK] in 1s
+21:33:41.129 [Test worker] DEBUG com.jcabi.github.RtJson - #fetch(): '{"sha":"34c62aa7c457ad4d95f6079b4049d8948548a6b4"..849984..tion>\n\\ No newline at end of file"}]}' in 1,25s
+21:33:41.129 [Test worker] DEBUG com.jcabi.github.RtRepoCommit - #json(): '{"sha":"34c62aa7c457ad4d95f6079b4049d8948548a6b4"..849984..tion>\n\\ No newline at end of file"}]}' in 1,27s
+21:33:41.144 [Test worker] DEBUG com.jcabi.github.SmartJson - #json(): '{"sha":"34c62aa7c457ad4d95f6079b4049d8948548a6b4"..849984..tion>\n\\ No newline at end of file"}]}' in 1,27s
+21:33:41.144 [Test worker] DEBUG com.jcabi.github.RepoCommit$Smart - #message(): 'Added addressbook ans mantisbt modules\n\nAdded addressbook ans mantisbt modules' in 1,28s
 Added addressbook ans mantisbt modules
 
 Added addressbook ans mantisbt modules
+21:33:41.144 [Test worker] DEBUG com.jcabi.github.RtRepo - #coordinates(): IuliiaMay/JavaSelenium in 7,25µs
+21:33:41.144 [Test worker] DEBUG com.jcabi.github.RtRepoCommits - #get('2346ca96c0c5e403ca5affde1d336176d7119d03'): https://api.github.com/repos/IuliiaMay/JavaSeleniu..0..mits/2346ca96c0c5e403ca5affde1d336176d7119d03 in 715,95µs
+21:33:42.057 [Test worker] INFO com.jcabi.http.request.BaseRequest - #fetch(GET api.github.com /repos/IuliiaMay/JavaSelenium/commits/2346ca96c0c5e403ca5affde1d336176d7119d03): [200 OK] in 912ms
+21:33:42.114 [Test worker] DEBUG com.jcabi.github.RtJson - #fetch(): '{"sha":"2346ca96c0c5e403ca5affde1d336176d7119d03"..808479..a96c0c5e403ca5affde1d336176d7119d03"}]}' in 959,00ms
+21:33:42.130 [Test worker] DEBUG com.jcabi.github.RtRepoCommit - #json(): '{"sha":"2346ca96c0c5e403ca5affde1d336176d7119d03"..808479..a96c0c5e403ca5affde1d336176d7119d03"}]}' in 965,66ms
+21:33:42.137 [Test worker] DEBUG com.jcabi.github.SmartJson - #json(): '{"sha":"2346ca96c0c5e403ca5affde1d336176d7119d03"..808479..a96c0c5e403ca5affde1d336176d7119d03"}]}' in 982,14ms
+21:33:42.138 [Test worker] DEBUG com.jcabi.github.RepoCommit$Smart - #message(): 'Added REST and SOAP modules\n\nAdded REST and SOAP modules' in 989,08ms
 Added REST and SOAP modules
 
 Added REST and SOAP modules
+21:33:42.139 [Test worker] DEBUG com.jcabi.github.RtRepo - #coordinates(): IuliiaMay/JavaSelenium in 11,95µs
+21:33:42.141 [Test worker] DEBUG com.jcabi.github.RtRepoCommits - #get('bb40cbb630e1c4ebe7cd8bd7a6ec629934b3c37f'): https://api.github.com/repos/IuliiaMay/JavaSeleniu..0..mits/bb40cbb630e1c4ebe7cd8bd7a6ec629934b3c37f in 1,57ms
+21:33:42.843 [Test worker] INFO com.jcabi.http.request.BaseRequest - #fetch(GET api.github.com /repos/IuliiaMay/JavaSelenium/commits/bb40cbb630e1c4ebe7cd8bd7a6ec629934b3c37f): [200 OK] in 701ms
+21:33:42.874 [Test worker] DEBUG com.jcabi.github.RtJson - #fetch(): '{"sha":"bb40cbb630e1c4ebe7cd8bd7a6ec629934b3c37f"..241980..bb630e1c4ebe7cd8bd7a6ec629934b3c37f"}]}' in 728,78ms
+21:33:42.879 [Test worker] DEBUG com.jcabi.github.RtRepoCommit - #json(): '{"sha":"bb40cbb630e1c4ebe7cd8bd7a6ec629934b3c37f"..241980..bb630e1c4ebe7cd8bd7a6ec629934b3c37f"}]}' in 733,13ms
+21:33:42.885 [Test worker] DEBUG com.jcabi.github.SmartJson - #json(): '{"sha":"bb40cbb630e1c4ebe7cd8bd7a6ec629934b3c37f"..241980..bb630e1c4ebe7cd8bd7a6ec629934b3c37f"}]}' in 738,64ms
+21:33:42.886 [Test worker] DEBUG com.jcabi.github.RepoCommit$Smart - #message(): 'GitHub module\n\nAdded GitHub module' in 744,39ms
 GitHub module
 
 Added GitHub module
+21:33:42.887 [Test worker] DEBUG com.jcabi.github.RtRepo - #coordinates(): IuliiaMay/JavaSelenium in 8,96µs
+21:33:42.888 [Test worker] DEBUG com.jcabi.github.RtRepoCommits - #get('f6eb94875e763201437b03e157606bba3dc2f531'): https://api.github.com/repos/IuliiaMay/JavaSeleniu..0..mits/f6eb94875e763201437b03e157606bba3dc2f531 in 726,19µs
+21:33:43.418 [Test worker] INFO com.jcabi.http.request.BaseRequest - #fetch(GET api.github.com /repos/IuliiaMay/JavaSelenium/commits/f6eb94875e763201437b03e157606bba3dc2f531): [200 OK] in 529ms
+21:33:43.426 [Test worker] DEBUG com.jcabi.github.RtJson - #fetch(): '{"sha":"f6eb94875e763201437b03e157606bba3dc2f531"..17117..2 @@\n+# JavaSelenium\n+JavaSelenium"}]}' in 536,06ms
+21:33:43.428 [Test worker] DEBUG com.jcabi.github.RtRepoCommit - #json(): '{"sha":"f6eb94875e763201437b03e157606bba3dc2f531"..17117..2 @@\n+# JavaSelenium\n+JavaSelenium"}]}' in 538,19ms
+21:33:43.429 [Test worker] DEBUG com.jcabi.github.SmartJson - #json(): '{"sha":"f6eb94875e763201437b03e157606bba3dc2f531"..17117..2 @@\n+# JavaSelenium\n+JavaSelenium"}]}' in 539,35ms
+21:33:43.430 [Test worker] DEBUG com.jcabi.github.RepoCommit$Smart - #message(): 'Initial commit' in 540,54ms
 Initial commit
 ]]></system-out>
-  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-]]></system-err>
+  <system-err><![CDATA[]]></system-err>
 </testsuite>

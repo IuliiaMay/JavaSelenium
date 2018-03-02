@@ -36,8 +36,6 @@
                 <artifactId>jcabi-github</artifactId>
                 <version>0.33.1</version>
             </dependency>
-
-
         </dependencies>
 
 </project>
