@@ -11,7 +11,7 @@ import java.io.IOException;
 public class GithubTests {
     @Test
     public void testCommits() throws IOException {
-        Github github = new RtGithub("e5baf6461639969b3865d0527d245b254c5870c7 ");
+        Github github = new RtGithub("d3dc82120b2666236177976838d637e9e461f1cf");
         RepoCommits commits = github.repos().get(new Coordinates.Simple("IuliiaMay", "JavaSelenium")).commits();
         for (RepoCommit commit : commits.iterate(new ImmutableMap.Builder<String, String>().build())){
             System.out.println(new RepoCommit.Smart(commit).message());

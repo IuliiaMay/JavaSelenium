@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="githab.test.GithubTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-03-02T16:04:29" hostname="LAPTOP-M7LJD1LD" time="11.114">
+  <properties/>
+  <testcase name="testCommits" classname="githab.test.GithubTests" time="11.114"/>
+  <system-out><![CDATA[configuring gradle.build
+
+add "useTestNG()"
+Added GitHub-Gradle mobule
+
+Added GitHub-Gradle mobule
+remove modules from projects pom
+
+remove modules from projects pom
+remove modules from Addressbook
+
+remove modules from Addressbook
+Updated structure of projet
+
+description
+Added addressbook ans mantisbt modules
+
+Added addressbook ans mantisbt modules
+Added REST and SOAP modules
+
+Added REST and SOAP modules
+GitHub module
+
+Added GitHub module
+Initial commit
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+</testsuite>

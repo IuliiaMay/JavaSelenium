@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="githab" />
+        <module name="githab (1)" />
+        <module name="githab-Gradle" />
         <module name="mytestmavenproject" />
         <module name="rest" />
         <module name="soap" />
@@ -17,6 +19,8 @@
     <bytecodeTargetLevel>
       <module name="addressbook" target="1.8" />
       <module name="githab" target="1.5" />
+      <module name="githab (1)" target="1.5" />
+      <module name="githab-Gradle" target="1.5" />
       <module name="mantisbt" target="1.8" />
       <module name="mytestmavenproject" target="1.5" />
       <module name="rest" target="1.5" />
