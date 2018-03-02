@@ -1,0 +1,15 @@
+<list>
+  <contact>
+    <group>test1</group>
+    <firstName>First 0</firstName>
+    <lastName>Last 0</lastName>
+    <address>Address 0</address>
+    <email>email@first.0</email>
+    <email2>email@Sec.0</email2>
+    <email3>email@Third.0</email3>
+    <mobilePhone>mobile 0</mobilePhone>
+    <homePhone>home 0</homePhone>
+    <workPhone>work 0</workPhone>
+  </contact>
+
+</list>

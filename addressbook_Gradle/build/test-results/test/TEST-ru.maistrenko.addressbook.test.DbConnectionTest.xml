@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.maistrenko.addressbook.test.DbConnectionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-03-02T18:40:27" hostname="LAPTOP-M7LJD1LD" time="0.115">
+  <properties/>
+  <testcase name="testDbConnection" classname="ru.maistrenko.addressbook.test.DbConnectionTest" time="0.115"/>
+  <system-out><![CDATA[7
+[GroupData{name='test1', id=196}, GroupData{name='test2', id=203}, GroupData{name='test3', id=204}, GroupData{name='test0', id=201}, GroupData{name='test1', id=202}, GroupData{name='test4', id=205}, GroupData{name='test5', id=206}]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
