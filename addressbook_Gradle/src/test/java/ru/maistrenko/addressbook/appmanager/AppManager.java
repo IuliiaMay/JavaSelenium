@@ -40,6 +40,7 @@ public class AppManager {
         String target = System.getProperty("target", "local");
         dbHelper = new DbHelper();
         properties.load(new FileReader(new File(String.format("src/test/resources/%s.properties", target))));
+        /*
 
         if("".equals(properties.getProperty("selenium.server"))) {
             if (browser.equals(BrowserType.FIREFOX)) {
@@ -55,6 +56,21 @@ public class AppManager {
         } else {
             DesiredCapabilities capabilities = new DesiredCapabilities();
             capabilities.setBrowserName(browser);
+            driver = new RemoteWebDriver(new URL(properties.getProperty("selenium.server")), capabilities);
+        }
+        */
+        if ("".equals(properties.getProperty("selenium.server"))) {
+            if (browser.equals(BrowserType.FIREFOX)) {
+                driver = new FirefoxDriver();
+            } else if (browser.equals(BrowserType.CHROME)) {
+                driver = new ChromeDriver();
+            } else if (browser.equals(BrowserType.IE)) {
+                driver = new InternetExplorerDriver();
+            }
+        } else {
+            DesiredCapabilities capabilities = new DesiredCapabilities();
+            capabilities.setBrowserName(browser);
+           // capabilities.setPlatform(Platform.fromString(System.getProperty("platform", "win7")));
             driver = new RemoteWebDriver(new URL(properties.getProperty("selenium.server")), capabilities);
         }
 
