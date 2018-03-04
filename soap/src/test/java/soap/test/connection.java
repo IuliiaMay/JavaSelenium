@@ -14,7 +14,7 @@ import java.rmi.RemoteException;
  * Created by User on 26.02.2018.
  */
 public class connection {
-    @Test
+    @Test (enabled = false)
     public void testGetProjects() throws MalformedURLException, ServiceException, RemoteException {
         MantisConnectPortType mc =new MantisConnectLocator()
                 .getMantisConnectPort(new URL("http://localhost/mantisbt/api/rest/mantisconnect.php"));

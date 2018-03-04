@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/../githab/pom.xml" />
         <option value="$PROJECT_DIR$/../soap/pom.xml" />
         <option value="$PROJECT_DIR$/../githab-Gradle/pom.xml" />
+        <option value="$PROJECT_DIR$/../rest/pom.xml" />
       </list>
     </option>
   </component>

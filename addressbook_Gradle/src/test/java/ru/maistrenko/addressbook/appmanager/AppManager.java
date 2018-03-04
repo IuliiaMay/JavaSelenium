@@ -6,10 +6,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.BrowserType;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.net.URL;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -37,16 +40,24 @@ public class AppManager {
         String target = System.getProperty("target", "local");
         dbHelper = new DbHelper();
         properties.load(new FileReader(new File(String.format("src/test/resources/%s.properties", target))));
-        if (browser.equals(BrowserType.FIREFOX)) {
-            System.setProperty("webdriver.gecko.driver", "src\\main\\resources\\drivers\\geckodriver.exe");
-            driver = new FirefoxDriver();
-        } else if (browser.equals(BrowserType.CHROME)) {
-            System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\drivers\\chromedriver.exe");
-            driver = new ChromeDriver();
-        } else if (browser.equals(BrowserType.IE)) {
-            System.setProperty("webdriver.ie.driver", "src\\main\\resources\\drivers\\IEDriverServer.exe");
-            driver = new InternetExplorerDriver();
+
+        if("".equals(properties.getProperty("selenium.server"))) {
+            if (browser.equals(BrowserType.FIREFOX)) {
+                System.setProperty("webdriver.gecko.driver", "src\\main\\resources\\drivers\\geckodriver.exe");
+                driver = new FirefoxDriver();
+            } else if (browser.equals(BrowserType.CHROME)) {
+                System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\drivers\\chromedriver.exe");
+                driver = new ChromeDriver();
+            } else if (browser.equals(BrowserType.IE)) {
+                System.setProperty("webdriver.ie.driver", "src\\main\\resources\\drivers\\IEDriverServer.exe");
+                driver = new InternetExplorerDriver();
+            }
+        } else {
+            DesiredCapabilities capabilities = new DesiredCapabilities();
+            capabilities.setBrowserName(browser);
+            driver = new RemoteWebDriver(new URL(properties.getProperty("selenium.server")), capabilities);
         }
+
         driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
         driver.get(properties.getProperty("web.baseUrl"));
         driver.manage().window().maximize();
@@ -56,8 +67,6 @@ public class AppManager {
 
         groupHelper = new GroupHelper(driver);
         navigationHelper = new NavigationHelper(driver);
-
-
     }
 
 
