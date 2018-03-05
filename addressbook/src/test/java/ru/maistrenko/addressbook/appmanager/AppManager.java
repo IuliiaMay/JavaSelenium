@@ -41,32 +41,16 @@ public class AppManager {
         dbHelper = new DbHelper();
         properties.load(new FileReader(new File(String.format("src/test/resources/%s.properties", target))));
 
-        /*
-        if (browser.equals(BrowserType.FIREFOX)) {
-            System.setProperty("webdriver.gecko.driver", "src\\main\\resources\\drivers\\geckodriver.exe");
-            driver = new FirefoxDriver();
-        } else if (browser.equals(BrowserType.CHROME)) {
-            System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\drivers\\chromedriver.exe");
-            driver = new ChromeDriver();
-        } else if (browser.equals(BrowserType.IE)) {
-            System.setProperty("webdriver.ie.driver", "src\\main\\resources\\drivers\\IEDriverServer.exe");
-            driver = new InternetExplorerDriver();
-        }
-        */
-        if ("".equals(properties.getProperty("selenium.server"))) {
             if (browser.equals(BrowserType.FIREFOX)) {
+                System.setProperty("webdriver.gecko.driver", "src\\main\\resources\\drivers\\geckodriver.exe");
                 driver = new FirefoxDriver();
             } else if (browser.equals(BrowserType.CHROME)) {
+                System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\drivers\\chromedriver.exe");
                 driver = new ChromeDriver();
             } else if (browser.equals(BrowserType.IE)) {
+                System.setProperty("webdriver.ie.driver", "src\\main\\resources\\drivers\\IEDriverServer.exe");
                 driver = new InternetExplorerDriver();
             }
-        } else {
-            DesiredCapabilities capabilities = new DesiredCapabilities();
-            capabilities.setBrowserName(browser);
-            // capabilities.setPlatform(Platform.fromString(System.getProperty("platform", "win7")));
-            driver = new RemoteWebDriver(new URL(properties.getProperty("selenium.server")), capabilities);
-        }
 
         driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
         driver.get(properties.getProperty("web.baseUrl"));
@@ -80,6 +64,8 @@ public class AppManager {
 
 
     }
+
+
 
     public GroupHelper group() {
         return groupHelper;

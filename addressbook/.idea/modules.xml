@@ -4,25 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../Project.iml" filepath="$PROJECT_DIR$/../Project.iml" />
       <module fileurl="file://$PROJECT_DIR$/../TAhaul.iml" filepath="$PROJECT_DIR$/../TAhaul.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/addressbook.iml" filepath="$PROJECT_DIR$/.idea/modules/addressbook.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/addressbook_Gradle.iml" filepath="$PROJECT_DIR$/.idea/modules/addressbook_Gradle.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/addressbook_Gradle_main.iml" filepath="$PROJECT_DIR$/.idea/modules/addressbook_Gradle_main.iml" group="addressbook_Gradle" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/addressbook_Gradle_test.iml" filepath="$PROJECT_DIR$/.idea/modules/addressbook_Gradle_test.iml" group="addressbook_Gradle" />
-      <module fileurl="file://$PROJECT_DIR$/../githab/githab.iml" filepath="$PROJECT_DIR$/../githab/githab.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../githab-Gradle/githab-Gradle.iml" filepath="$PROJECT_DIR$/../githab-Gradle/githab-Gradle.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mantisbt.iml" filepath="$PROJECT_DIR$/.idea/modules/mantisbt.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mantisbt_Gradle.iml" filepath="$PROJECT_DIR$/.idea/modules/mantisbt_Gradle.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mantisbt_Gradle_main.iml" filepath="$PROJECT_DIR$/.idea/modules/mantisbt_Gradle_main.iml" group="mantisbt_Gradle" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mantisbt_Gradle_test.iml" filepath="$PROJECT_DIR$/.idea/modules/mantisbt_Gradle_test.iml" group="mantisbt_Gradle" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mantisbt_main.iml" filepath="$PROJECT_DIR$/.idea/modules/mantisbt_main.iml" group="mantisbt" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mantisbt_test.iml" filepath="$PROJECT_DIR$/.idea/modules/mantisbt_test.iml" group="mantisbt" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rest.iml" filepath="$PROJECT_DIR$/.idea/modules/rest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rest_Gradle.iml" filepath="$PROJECT_DIR$/.idea/modules/rest_Gradle.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rest_Gradle_main.iml" filepath="$PROJECT_DIR$/.idea/modules/rest_Gradle_main.iml" group="rest_Gradle" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rest_Gradle_test.iml" filepath="$PROJECT_DIR$/.idea/modules/rest_Gradle_test.iml" group="rest_Gradle" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rest_main.iml" filepath="$PROJECT_DIR$/.idea/modules/rest_main.iml" group="rest" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rest_test.iml" filepath="$PROJECT_DIR$/.idea/modules/rest_test.iml" group="rest" />
-      <module fileurl="file://$PROJECT_DIR$/../soap/soap.iml" filepath="$PROJECT_DIR$/../soap/soap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/addressbook.iml" filepath="$PROJECT_DIR$/addressbook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../mantisbt/mantisbt.iml" filepath="$PROJECT_DIR$/../mantisbt/mantisbt.iml" />
     </modules>
   </component>
 </project>

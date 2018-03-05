@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.maistrenko.addressbook.test.GroupModificationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-03-02T18:40:39" hostname="LAPTOP-M7LJD1LD" time="1.244">
+<testsuite name="ru.maistrenko.addressbook.test.GroupModificationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-03-05T09:57:29" hostname="LAPTOP-M7LJD1LD" time="1.105">
   <properties/>
-  <testcase name="testGroupModificationByDb" classname="ru.maistrenko.addressbook.test.GroupModificationTests" time="1.244"/>
+  <testcase name="testGroupModificationByDb" classname="ru.maistrenko.addressbook.test.GroupModificationTests" time="1.105"/>
   <system-out><![CDATA[Hibernate: select groupdata0_.group_id as group_id1_2_, groupdata0_.group_footer as group_fo2_2_, groupdata0_.group_header as group_he3_2_, groupdata0_.group_name as group_na4_2_ from group_list groupdata0_
 Hibernate: select groupdata0_.group_id as group_id1_2_, groupdata0_.group_footer as group_fo2_2_, groupdata0_.group_header as group_he3_2_, groupdata0_.group_name as group_na4_2_ from group_list groupdata0_
 Hibernate: select groupdata0_.group_id as group_id1_2_, groupdata0_.group_footer as group_fo2_2_, groupdata0_.group_header as group_he3_2_, groupdata0_.group_name as group_na4_2_ from group_list groupdata0_
