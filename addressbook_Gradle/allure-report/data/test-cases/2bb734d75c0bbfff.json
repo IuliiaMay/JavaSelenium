@@ -1,0 +1,53 @@
+{
+  "uid" : "2bb734d75c0bbfff",
+  "name" : "testContactDeletion",
+  "fullName" : "Gradle suite.testContactDeletion",
+  "historyId" : "270cea75165f2a7df89c42c8a6bbc641",
+  "time" : {
+    "start" : 1520256515726,
+    "stop" : 1520256531320,
+    "duration" : 15594
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Gradle suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Gradle suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "testContactDeletion"
+  }, {
+    "name" : "package",
+    "value" : "Gradle suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b261eb6ae8f8bd2d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1520254036917,
+        "stop" : 1520254043358,
+        "duration" : 6441
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2bb734d75c0bbfff.json",
+  "parameterValues" : [ ]
+}

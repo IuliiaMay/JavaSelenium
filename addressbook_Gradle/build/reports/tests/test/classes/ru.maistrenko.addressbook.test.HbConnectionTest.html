@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.048s</div>
+<div class="counter">0.099s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,12 +79,12 @@
 </thead>
 <tr>
 <td class="success">testHbConnection</td>
-<td>0.026s</td>
+<td>0.010s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testHbConnectionContacts</td>
-<td>0.022s</td>
+<td>0.089s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -92,8 +92,7 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>13:57:30.776 [Test worker] WARN  org.hibernate.orm.connections - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
-Hibernate: select groupdata0_.group_id as group_id1_2_, groupdata0_.group_footer as group_fo2_2_, groupdata0_.group_header as group_he3_2_, groupdata0_.group_name as group_na4_2_ from group_list groupdata0_
+<pre>Hibernate: select groupdata0_.group_id as group_id1_2_, groupdata0_.group_footer as group_fo2_2_, groupdata0_.group_header as group_he3_2_, groupdata0_.group_name as group_na4_2_ from group_list groupdata0_
 GroupData{name='test5', id=206}
 GroupData{name='test0', id=207}
 GroupData{name='test1', id=208}
@@ -125,6 +124,20 @@ GroupData{name='test2', id=233}
 GroupData{name='test3', id=234}
 GroupData{name='test4', id=235}
 GroupData{name='test5', id=236}
+GroupData{name='test1', id=239}
+GroupData{name='test3', id=240}
+GroupData{name='test4', id=241}
+GroupData{name='test5', id=242}
+GroupData{name='test0', id=243}
+GroupData{name='test1', id=244}
+GroupData{name='test2', id=245}
+GroupData{name='test1', id=246}
+GroupData{name='test4', id=247}
+GroupData{name='test0', id=249}
+GroupData{name='test1', id=250}
+GroupData{name='test2', id=251}
+GroupData{name='test1', id=252}
+GroupData{name='test4', id=253}
 Hibernate: select contactdat0_.id as id1_1_, contactdat0_.address as address2_1_, contactdat0_.email as email3_1_, contactdat0_.email2 as email4_1_, contactdat0_.email3 as email5_1_, contactdat0_.firstname as firstnam6_1_, contactdat0_.home as home7_1_, contactdat0_.lastname as lastname8_1_, contactdat0_.mobile as mobile9_1_, contactdat0_.work as work10_1_ from addressbook contactdat0_ where deprecated='0000-00-00'
 Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
 Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
@@ -135,8 +148,8 @@ Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, 
 Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
 Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
 Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
-ContactData{groups=[], firstName='modified', lastName='test3', id=242}
-[]
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
 ContactData{groups=[], firstName='modified', lastName='test3', id=244}
 []
 ContactData{groups=[], firstName='First 0', lastName='Last 0', id=245}
@@ -147,11 +160,17 @@ ContactData{groups=[], firstName='modified', lastName='test3', id=251}
 []
 ContactData{groups=[], firstName='modified', lastName='test3', id=252}
 []
-ContactData{groups=[], firstName='First 0', lastName='Last 0', id=253}
-[]
 ContactData{groups=[], firstName='First 0', lastName='Last 0', id=254}
 []
-ContactData{groups=[], firstName='First 0', lastName='Last 0', id=256}
+ContactData{groups=[], firstName='modified', lastName='test3', id=256}
+[]
+ContactData{groups=[], firstName='modified', lastName='test3', id=258}
+[]
+ContactData{groups=[], firstName='First 0', lastName='Last 0', id=260}
+[]
+ContactData{groups=[], firstName='modified', lastName='test3', id=261}
+[]
+ContactData{groups=[], firstName='First 0', lastName='Last 0', id=262}
 []
 </pre>
 </span>
@@ -164,7 +183,7 @@ ContactData{groups=[], firstName='First 0', lastName='Last 0', id=256}
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 4.6</a> at 05.03.2018 13:57:36</p>
+<a href="http://www.gradle.org">Gradle 4.6</a> at 05.03.2018 17:29:27</p>
 </div>
 </div>
 </body>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.maistrenko.addressbook.test.GroupDeletionTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-03-05T09:57:28" hostname="LAPTOP-M7LJD1LD" time="0.751">
+<testsuite name="ru.maistrenko.addressbook.test.GroupDeletionTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-03-05T13:29:10" hostname="LAPTOP-M7LJD1LD" time="0.777">
   <properties/>
-  <testcase name="testGroupDeletion" classname="ru.maistrenko.addressbook.test.GroupDeletionTests" time="0.751"/>
+  <testcase name="testGroupDeletion" classname="ru.maistrenko.addressbook.test.GroupDeletionTests" time="0.777"/>
   <system-out><![CDATA[Hibernate: select groupdata0_.group_id as group_id1_2_, groupdata0_.group_footer as group_fo2_2_, groupdata0_.group_header as group_he3_2_, groupdata0_.group_name as group_na4_2_ from group_list groupdata0_
 Hibernate: select groupdata0_.group_id as group_id1_2_, groupdata0_.group_footer as group_fo2_2_, groupdata0_.group_header as group_he3_2_, groupdata0_.group_name as group_na4_2_ from group_list groupdata0_
 Hibernate: select groupdata0_.group_id as group_id1_2_, groupdata0_.group_footer as group_fo2_2_, groupdata0_.group_header as group_he3_2_, groupdata0_.group_name as group_na4_2_ from group_list groupdata0_

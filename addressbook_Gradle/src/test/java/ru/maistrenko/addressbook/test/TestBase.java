@@ -2,6 +2,7 @@ package ru.maistrenko.addressbook.test;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.testng.ITestContext;
 import org.testng.annotations.*;
 import ru.maistrenko.addressbook.appmanager.AppManager;
 import org.openqa.selenium.remote.BrowserType;
@@ -20,14 +21,16 @@ import static org.hamcrest.MatcherAssert.*;
 /**
  * Created by maistrenko on 25.07.2017.
  */
+@Listeners(TestLictener.class)
 public class TestBase {
     Logger logger = LoggerFactory.getLogger(TestBase.class);
 
    protected static final AppManager app = new AppManager(System.getProperty("browser", BrowserType.CHROME));
 
     @BeforeSuite
-    public void setUp() throws Exception {
+    public void setUp(ITestContext context) throws Exception {
         app.init();
+        context.setAttribute("app", app);
     }
 
     @AfterSuite (alwaysRun = true)

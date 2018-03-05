@@ -1,6 +1,9 @@
 package ru.maistrenko.addressbook.appmanager;
 //https://github.com/TolikT/java-courses/tree/master/addressbook-web-tests/src/test/java/ru/tikhoa/pft/addressbook - CODE
 
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.Platform;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -47,6 +50,30 @@ public class AppManager {
             System.setProperty("webdriver.ie.driver", "src\\main\\resources\\drivers\\IEDriverServer.exe");
             driver = new InternetExplorerDriver();
         }
+
+        /*
+
+        if ("".equals(properties.getProperty("selenium.server"))) {
+            if (browser.equals(BrowserType.FIREFOX)) {
+                System.setProperty("webdriver.gecko.driver", "src\\main\\resources\\drivers\\geckodriver.exe");
+                driver = new FirefoxDriver();
+            } else if (browser.equals(BrowserType.CHROME)) {
+                System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\drivers\\chromedriver.exe");
+                driver = new ChromeDriver();
+            } else if (browser.equals(BrowserType.IE)) {
+                System.setProperty("webdriver.ie.driver", "src\\main\\resources\\drivers\\IEDriverServer.exe");
+                driver = new InternetExplorerDriver();
+            }
+        } else {
+            DesiredCapabilities capabilities = new DesiredCapabilities();
+            capabilities.setBrowserName(browser);
+          //  capabilities.setPlatform(Platform.fromString(System.getProperty("platform", "win7")));
+            driver = new RemoteWebDriver(new URL(properties.getProperty("selenium.server")), capabilities);
+        }
+        */
+
+
+
         driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
         driver.get(properties.getProperty("web.baseUrl"));
         driver.manage().window().maximize();
@@ -56,11 +83,7 @@ public class AppManager {
 
         groupHelper = new GroupHelper(driver);
         navigationHelper = new NavigationHelper(driver);
-
-
     }
-
-
 
     public GroupHelper group() {
         return groupHelper;
@@ -79,6 +102,10 @@ public class AppManager {
 
     public DbHelper db(){
         return dbHelper;
+    }
+
+    public byte[] takeScreenshot(){
+        return ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
     }
 
 

@@ -1,0 +1,53 @@
+{
+  "uid" : "263495c64f9b8d76",
+  "name" : "testContactCreation[ContactData{groups=[], firstName='First 0', lastName='Last 0', id=0}]",
+  "fullName" : "Gradle suite.testContactCreation[ContactData{groups=[], firstName='First 0', lastName='Last 0', id=0}]",
+  "historyId" : "fc9cb6102d5357b46a2678b951bbd116",
+  "time" : {
+    "start" : 1520256459964,
+    "stop" : 1520256515606,
+    "duration" : 55642
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Gradle suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Gradle suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "testContactCreation[ContactData{groups=[], firstName='First 0', lastName='Last 0', id=0}]"
+  }, {
+    "name" : "package",
+    "value" : "Gradle suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e3e2f3ba857f17bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1520254034141,
+        "stop" : 1520254036853,
+        "duration" : 2712
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "263495c64f9b8d76.json",
+  "parameterValues" : [ ]
+}

@@ -23,6 +23,8 @@
       <module name="mantisbt" target="1.8" />
       <module name="mytestmavenproject" target="1.5" />
       <module name="rest" target="1.5" />
+      <module name="rest_Gradle_main" target="1.5" />
+      <module name="rest_Gradle_test" target="1.5" />
       <module name="rest_main" target="1.5" />
       <module name="rest_test" target="1.5" />
       <module name="soap" target="1.5" />
