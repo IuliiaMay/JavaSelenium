@@ -106,5 +106,10 @@
                <artifactId>allure-java-annotations</artifactId>
                <version>1.5.4</version>
            </dependency>
+           <dependency>
+               <groupId>org.robotframework</groupId>
+               <artifactId>robotframework</artifactId>
+               <version>3.0.2</version>
+           </dependency>
        </dependencies>
 </project>

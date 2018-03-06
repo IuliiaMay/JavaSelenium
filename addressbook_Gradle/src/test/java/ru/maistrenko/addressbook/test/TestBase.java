@@ -35,7 +35,7 @@ public class TestBase {
 
     @AfterSuite (alwaysRun = true)
     public void tearDown() throws Exception {
-          app.driver.quit();
+          app.stop();
     }
     @BeforeMethod
     public void logTestStart(Method m, Object[] p){

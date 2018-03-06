@@ -1,0 +1,45 @@
+{
+  "uid" : "ad1b875d6d0981a8",
+  "name" : "testContactModification",
+  "fullName" : "Gradle suite.testContactModification",
+  "historyId" : "2ac8b89327095835b1a2e425d1f3c083",
+  "time" : {
+    "start" : 1520254044965,
+    "stop" : 1520254048387,
+    "duration" : 3422
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: \nExpected: <[ContactData{groups=[], firstName='modified', lastName='test3', id=252}, ContactData{groups=[], firstName='modified', lastName='test3', id=242}, ContactData{groups=[], firstName='modified', lastName='test3', id=258}, ContactData{groups=[], firstName='First 0', lastName='Last 0', id=250}, ContactData{groups=[], firstName='modified', lastName='test3', id=251}, ContactData{groups=[], firstName='modified', lastName='test3', id=256}, ContactData{groups=[], firstName='modified', lastName='test3', id=244}, ContactData{groups=[], firstName='First 0', lastName='Last 0', id=254}, ContactData{groups=[], firstName='First 0', lastName='Last 0', id=245}, ContactData{groups=[], firstName='First 0', lastName='Last 0', id=260}]>\n     but: was <[ContactData{groups=[], firstName='modified', lastName='test3', id=242}, ContactData{groups=[], firstName='First 0', lastName='Last 0', id=250}, ContactData{groups=[], firstName='modified', lastName='test3', id=251}, ContactData{groups=[], firstName='modified', lastName='test3', id=256}, ContactData{groups=[], firstName='modified', lastName='test3', id=244}, ContactData{groups=[], firstName='First 0', lastName='Last 0', id=254}, ContactData{groups=[], firstName='First 0', lastName='Last 0', id=245}, ContactData{groups=[], firstName='First 0', lastName='Last 0', id=260}, ContactData{groups=[], firstName='modified', lastName='test3', id=252}, ContactData{groups=[], firstName='First 0', lastName='Last 0', id=258}]>",
+  "statusTrace" : "java.lang.AssertionError: \nExpected: <[ContactData{groups=[], firstName='modified', lastName='test3', id=252}, ContactData{groups=[], firstName='modified', lastName='test3', id=242}, ContactData{groups=[], firstName='modified', lastName='test3', id=258}, ContactData{groups=[], firstName='First 0', lastName='Last 0', id=250}, ContactData{groups=[], firstName='modified', lastName='test3', id=251}, ContactData{groups=[], firstName='modified', lastName='test3', id=256}, ContactData{groups=[], firstName='modified', lastName='test3', id=244}, ContactData{groups=[], firstName='First 0', lastName='Last 0', id=254}, ContactData{groups=[], firstName='First 0', lastName='Last 0', id=245}, ContactData{groups=[], firstName='First 0', lastName='Last 0', id=260}]>\n     but: was <[ContactData{groups=[], firstName='modified', lastName='test3', id=242}, ContactData{groups=[], firstName='First 0', lastName='Last 0', id=250}, ContactData{groups=[], firstName='modified', lastName='test3', id=251}, ContactData{groups=[], firstName='modified', lastName='test3', id=256}, ContactData{groups=[], firstName='modified', lastName='test3', id=244}, ContactData{groups=[], firstName='First 0', lastName='Last 0', id=254}, ContactData{groups=[], firstName='First 0', lastName='Last 0', id=245}, ContactData{groups=[], firstName='First 0', lastName='Last 0', id=260}, ContactData{groups=[], firstName='modified', lastName='test3', id=252}, ContactData{groups=[], firstName='First 0', lastName='Last 0', id=258}]>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)\n\tat ru.maistrenko.addressbook.test.ContactModificationTests.testContactModification(ContactModificationTests.java:45)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:580)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\n\tat org.testng.TestRunner.run(TestRunner.java:505)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\n\tat org.testng.TestNG.run(TestNG.java:1017)\n\tat org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:134)\n\tat org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:88)\n\tat org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)\n\tat org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)\n\tat org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)\n\tat org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)\n\tat com.sun.proxy.$Proxy1.stop(Unknown Source)\n\tat org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:123)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)\n\tat org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)\n\tat org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146)\n\tat org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128)\n\tat org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)\n\tat org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)\n\tat org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\tat org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)\n\tat java.lang.Thread.run(Thread.java:745)\n",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Gradle suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Gradle suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "testContactModification"
+  }, {
+    "name" : "package",
+    "value" : "Gradle suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ad1b875d6d0981a8.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,43 @@
+{
+  "uid" : "4d27aacca2db8eac",
+  "name" : "testGroupDeletion",
+  "fullName" : "Gradle suite.testGroupDeletion",
+  "historyId" : "f3dcc605e9c03d440b62e2cbe5ed32e",
+  "time" : {
+    "start" : 1520254062820,
+    "stop" : 1520254063347,
+    "duration" : 527
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Gradle suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Gradle suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "testGroupDeletion"
+  }, {
+    "name" : "package",
+    "value" : "Gradle suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4d27aacca2db8eac.json",
+  "parameterValues" : [ ]
+}

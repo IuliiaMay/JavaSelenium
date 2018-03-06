@@ -1,0 +1,43 @@
+{
+  "uid" : "50ce2aaf6a86ad5a",
+  "name" : "testHbConnection",
+  "fullName" : "Gradle suite.testHbConnection",
+  "historyId" : "29108995d0d36c8ed7f6c498a7bf0718",
+  "time" : {
+    "start" : 1520254065860,
+    "stop" : 1520254065869,
+    "duration" : 9
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Gradle suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Gradle suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "testHbConnection"
+  }, {
+    "name" : "package",
+    "value" : "Gradle suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "50ce2aaf6a86ad5a.json",
+  "parameterValues" : [ ]
+}

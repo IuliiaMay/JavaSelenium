@@ -100,5 +100,6 @@
     <orderEntry type="library" name="Maven: ru.yandex.qatools.allure:allure-model:1.5.4" level="project" />
     <orderEntry type="library" name="Maven: org.jvnet.jaxb2_commons:jaxb2-basics-runtime:0.9.3" level="project" />
     <orderEntry type="library" name="Maven: ru.qatools.commons:properties:2.0.RC5" level="project" />
+    <orderEntry type="library" name="Maven: org.robotframework:robotframework:3.0.2" level="project" />
   </component>
 </module>

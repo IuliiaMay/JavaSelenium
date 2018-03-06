@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.2 (Jython 2.7.0 on java1.8.0_121)" generated="20180306 18:55:34.507">
+<suite source="C:\Users\User\Documents\GitHub\JavaSelenium\addressbook_Gradle\src\test\resources\robotFramework" name="robotFramework" id="s1">
+<suite source="C:\Users\User\Documents\GitHub\JavaSelenium\addressbook_Gradle\src\test\resources\robotFramework\contacts.robot" name="Contacts" id="s1-s1">
+<kw type="setup" library="ru.maistrenko.addressbook.robotFramework.AddressbookKeywords" name="Init Application Manager">
+<msg level="INFO" timestamp="20180306 18:56:13.170">Starting ChromeDriver 2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1) on port 24074
+Only local connections are allowed.
+��� 06, 2018 6:55:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS</msg>
+<status endtime="20180306 18:56:13.176" starttime="20180306 18:55:35.085" status="PASS"></status>
+</kw>
+<test name="Creation contact with valid data" id="s1-s1-t1">
+<kw library="ru.maistrenko.addressbook.robotFramework.AddressbookKeywords" name="Get Contact Count">
+<assign>
+<var>${old_count}</var>
+</assign>
+<msg level="INFO" timestamp="20180306 18:56:13.367">${old_count} = 13</msg>
+<status endtime="20180306 18:56:13.368" starttime="20180306 18:56:13.194" status="PASS"></status>
+</kw>
+<kw library="ru.maistrenko.addressbook.robotFramework.AddressbookKeywords" name="Create Contact">
+<arguments>
+<arg>first name</arg>
+<arg>last name</arg>
+<arg>address</arg>
+</arguments>
+<status endtime="20180306 18:57:10.500" starttime="20180306 18:56:13.370" status="PASS"></status>
+</kw>
+<kw library="ru.maistrenko.addressbook.robotFramework.AddressbookKeywords" name="Get Contact Count">
+<assign>
+<var>${new_count}</var>
+</assign>
+<msg level="INFO" timestamp="20180306 18:57:10.550">${new_count} = 14</msg>
+<status endtime="20180306 18:57:10.551" starttime="20180306 18:57:10.502" status="PASS"></status>
+</kw>
+<kw library="BuiltIn" name="Evaluate">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${old_count} + 1</arg>
+</arguments>
+<assign>
+<var>${expected_count}</var>
+</assign>
+<msg level="INFO" timestamp="20180306 18:57:10.617">${expected_count} = 14</msg>
+<status endtime="20180306 18:57:10.618" starttime="20180306 18:57:10.553" status="PASS"></status>
+</kw>
+<kw library="BuiltIn" name="Should Be Equal As Integers">
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<arguments>
+<arg>${new_count}</arg>
+<arg>${expected_count}</arg>
+</arguments>
+<status endtime="20180306 18:57:10.625" starttime="20180306 18:57:10.620" status="PASS"></status>
+</kw>
+<status critical="yes" endtime="20180306 18:57:10.627" starttime="20180306 18:56:13.182" status="PASS"></status>
+</test>
+<test name="Remove contact" id="s1-s1-t2">
+<kw library="ru.maistrenko.addressbook.robotFramework.AddressbookKeywords" name="Get Contact Count">
+<assign>
+<var>${old_count}</var>
+</assign>
+<msg level="INFO" timestamp="20180306 18:57:10.674">${old_count} = 14</msg>
+<status endtime="20180306 18:57:10.675" starttime="20180306 18:57:10.637" status="PASS"></status>
+</kw>
+<kw library="ru.maistrenko.addressbook.robotFramework.AddressbookKeywords" name="Remove Contact">
+<msg level="INFO" timestamp="20180306 18:57:14.155">Hibernate: select contactdat0_.id as id1_1_, contactdat0_.address as address2_1_, contactdat0_.email as email3_1_, contactdat0_.email2 as email4_1_, contactdat0_.email3 as email5_1_, contactdat0_.firstname as firstnam6_1_, contactdat0_.home as home7_1_, contactdat0_.lastname as lastname8_1_, contactdat0_.mobile as mobile9_1_, contactdat0_.work as work10_1_ from addressbook contactdat0_ where deprecated='0000-00-00'
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?</msg>
+<status endtime="20180306 18:57:14.160" starttime="20180306 18:57:10.676" status="PASS"></status>
+</kw>
+<kw library="ru.maistrenko.addressbook.robotFramework.AddressbookKeywords" name="Get Contact Count">
+<assign>
+<var>${new_count}</var>
+</assign>
+<msg level="INFO" timestamp="20180306 18:57:14.223">${new_count} = 13</msg>
+<status endtime="20180306 18:57:14.224" starttime="20180306 18:57:14.161" status="PASS"></status>
+</kw>
+<kw library="BuiltIn" name="Evaluate">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${old_count} - 1</arg>
+</arguments>
+<assign>
+<var>${expected_count}</var>
+</assign>
+<msg level="INFO" timestamp="20180306 18:57:14.236">${expected_count} = 13</msg>
+<status endtime="20180306 18:57:14.237" starttime="20180306 18:57:14.226" status="PASS"></status>
+</kw>
+<kw library="BuiltIn" name="Should Be Equal As Integers">
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<arguments>
+<arg>${new_count}</arg>
+<arg>${expected_count}</arg>
+</arguments>
+<status endtime="20180306 18:57:14.243" starttime="20180306 18:57:14.238" status="PASS"></status>
+</kw>
+<status critical="yes" endtime="20180306 18:57:14.244" starttime="20180306 18:57:10.632" status="PASS"></status>
+</test>
+<kw type="teardown" library="ru.maistrenko.addressbook.robotFramework.AddressbookKeywords" name="Stop Application Manager">
+<status endtime="20180306 18:57:20.738" starttime="20180306 18:57:14.343" status="PASS"></status>
+</kw>
+<status endtime="20180306 18:57:20.738" starttime="20180306 18:55:34.977" status="PASS"></status>
+</suite>
+<suite source="C:\Users\User\Documents\GitHub\JavaSelenium\addressbook_Gradle\src\test\resources\robotFramework\groups.robot" name="Groups" id="s1-s2">
+<kw type="setup" library="ru.maistrenko.addressbook.robotFramework.AddressbookKeywords" name="Init Application Manager">
+<msg level="INFO" timestamp="20180306 18:57:31.636">Starting ChromeDriver 2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1) on port 8977
+Only local connections are allowed.</msg>
+<status endtime="20180306 18:57:31.639" starttime="20180306 18:57:20.769" status="PASS"></status>
+</kw>
+<test name="Creation group with valid data" id="s1-s2-t1">
+<kw library="ru.maistrenko.addressbook.robotFramework.AddressbookKeywords" name="Get Group Count">
+<assign>
+<var>${old_count}</var>
+</assign>
+<msg level="INFO" timestamp="20180306 18:57:31.967">${old_count} = 62</msg>
+<status endtime="20180306 18:57:31.968" starttime="20180306 18:57:31.645" status="PASS"></status>
+</kw>
+<kw library="ru.maistrenko.addressbook.robotFramework.AddressbookKeywords" name="Create Group">
+<arguments>
+<arg>test name</arg>
+<arg>test header</arg>
+<arg>test footer</arg>
+</arguments>
+<status endtime="20180306 18:57:33.388" starttime="20180306 18:57:31.970" status="PASS"></status>
+</kw>
+<kw library="ru.maistrenko.addressbook.robotFramework.AddressbookKeywords" name="Get Group Count">
+<assign>
+<var>${new_count}</var>
+</assign>
+<msg level="INFO" timestamp="20180306 18:57:33.583">${new_count} = 63</msg>
+<status endtime="20180306 18:57:33.584" starttime="20180306 18:57:33.391" status="PASS"></status>
+</kw>
+<kw library="BuiltIn" name="Evaluate">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${old_count} + 1</arg>
+</arguments>
+<assign>
+<var>${expected_count}</var>
+</assign>
+<msg level="INFO" timestamp="20180306 18:57:33.592">${expected_count} = 63</msg>
+<status endtime="20180306 18:57:33.593" starttime="20180306 18:57:33.585" status="PASS"></status>
+</kw>
+<kw library="BuiltIn" name="Should Be Equal As Integers">
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<arguments>
+<arg>${new_count}</arg>
+<arg>${expected_count}</arg>
+</arguments>
+<status endtime="20180306 18:57:33.600" starttime="20180306 18:57:33.595" status="PASS"></status>
+</kw>
+<status critical="yes" endtime="20180306 18:57:33.602" starttime="20180306 18:57:31.641" status="PASS"></status>
+</test>
+<test name="Remove group" id="s1-s2-t2">
+<kw library="ru.maistrenko.addressbook.robotFramework.AddressbookKeywords" name="Get Group Count">
+<assign>
+<var>${old_count}</var>
+</assign>
+<msg level="INFO" timestamp="20180306 18:57:33.793">${old_count} = 63</msg>
+<status endtime="20180306 18:57:33.798" starttime="20180306 18:57:33.609" status="PASS"></status>
+</kw>
+<kw library="ru.maistrenko.addressbook.robotFramework.AddressbookKeywords" name="Remove Group">
+<msg level="INFO" timestamp="20180306 18:57:34.495">Hibernate: select groupdata0_.group_id as group_id1_2_, groupdata0_.group_footer as group_fo2_2_, groupdata0_.group_header as group_he3_2_, groupdata0_.group_name as group_na4_2_ from group_list groupdata0_</msg>
+<status endtime="20180306 18:57:34.504" starttime="20180306 18:57:33.801" status="PASS"></status>
+</kw>
+<kw library="ru.maistrenko.addressbook.robotFramework.AddressbookKeywords" name="Get Group Count">
+<assign>
+<var>${new_count}</var>
+</assign>
+<msg level="INFO" timestamp="20180306 18:57:34.734">${new_count} = 62</msg>
+<status endtime="20180306 18:57:34.739" starttime="20180306 18:57:34.505" status="PASS"></status>
+</kw>
+<kw library="BuiltIn" name="Evaluate">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${old_count} - 1</arg>
+</arguments>
+<assign>
+<var>${expected_count}</var>
+</assign>
+<msg level="INFO" timestamp="20180306 18:57:34.745">${expected_count} = 62</msg>
+<status endtime="20180306 18:57:34.747" starttime="20180306 18:57:34.740" status="PASS"></status>
+</kw>
+<kw library="BuiltIn" name="Should Be Equal As Integers">
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<arguments>
+<arg>${new_count}</arg>
+<arg>${expected_count}</arg>
+</arguments>
+<status endtime="20180306 18:57:34.754" starttime="20180306 18:57:34.750" status="PASS"></status>
+</kw>
+<status critical="yes" endtime="20180306 18:57:34.755" starttime="20180306 18:57:33.604" status="PASS"></status>
+</test>
+<kw type="teardown" library="ru.maistrenko.addressbook.robotFramework.AddressbookKeywords" name="Stop Application Manager">
+<status endtime="20180306 18:57:35.721" starttime="20180306 18:57:34.764" status="PASS"></status>
+</kw>
+<status endtime="20180306 18:57:35.721" starttime="20180306 18:57:20.754" status="PASS"></status>
+</suite>
+<status endtime="20180306 18:57:35.737" starttime="20180306 18:55:34.525" status="PASS"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="4" fail="0">Critical Tests</stat>
+<stat pass="4" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="4" fail="0" name="robotFramework" id="s1">robotFramework</stat>
+<stat pass="2" fail="0" name="Contacts" id="s1-s1">robotFramework.Contacts</stat>
+<stat pass="2" fail="0" name="Groups" id="s1-s2">robotFramework.Groups</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

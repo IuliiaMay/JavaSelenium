@@ -1,0 +1,43 @@
+{
+  "uid" : "d6d269b5c3c5ed65",
+  "name" : "testGroupCreationByDb[GroupData{name='test4', id=0}]",
+  "fullName" : "Gradle suite.testGroupCreationByDb[GroupData{name='test4', id=0}]",
+  "historyId" : "2cf9394b1f997dd5efcbdeff638b1290",
+  "time" : {
+    "start" : 1520254059788,
+    "stop" : 1520254061185,
+    "duration" : 1397
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Gradle suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Gradle suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "testGroupCreationByDb[GroupData{name='test4', id=0}]"
+  }, {
+    "name" : "package",
+    "value" : "Gradle suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d6d269b5c3c5ed65.json",
+  "parameterValues" : [ ]
+}

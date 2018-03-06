@@ -1,0 +1,43 @@
+{
+  "uid" : "e3e2f3ba857f17bc",
+  "name" : "testContactCreation[ContactData{groups=[], firstName='First 0', lastName='Last 0', id=0}]",
+  "fullName" : "Gradle suite.testContactCreation[ContactData{groups=[], firstName='First 0', lastName='Last 0', id=0}]",
+  "historyId" : "fc9cb6102d5357b46a2678b951bbd116",
+  "time" : {
+    "start" : 1520254034141,
+    "stop" : 1520254036853,
+    "duration" : 2712
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Gradle suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Gradle suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "testContactCreation[ContactData{groups=[], firstName='First 0', lastName='Last 0', id=0}]"
+  }, {
+    "name" : "package",
+    "value" : "Gradle suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e3e2f3ba857f17bc.json",
+  "parameterValues" : [ ]
+}

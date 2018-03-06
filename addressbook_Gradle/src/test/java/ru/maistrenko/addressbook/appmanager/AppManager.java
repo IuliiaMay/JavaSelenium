@@ -84,6 +84,9 @@ public class AppManager {
         groupHelper = new GroupHelper(driver);
         navigationHelper = new NavigationHelper(driver);
     }
+    public void stop(){
+        driver.quit();
+    }
 
     public GroupHelper group() {
         return groupHelper;
